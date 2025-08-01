@@ -5,9 +5,6 @@ alter table "public"."HozTeam" enable row level security;
 
 alter table "public"."dev_bug_tracker" enable row level security;
 
-alter table "public"."emails" drop column "classification";
-
-alter table "public"."emails" drop column "processed";
 
 alter table "public"."emails" enable row level security;
 
